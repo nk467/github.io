@@ -107,7 +107,26 @@ footer {
 	text-decoration: underline;
 }
 
- @media screen and (min-width: 1000px){
+@media screen and (max-width: 1000px) {
+	body {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	p {
+		margin-bottom: 30px;
+	}
+
+	img {
+		margin-bottom: 20px;
+	}
+
+	.project_wrapper {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 1000px){
 	p {
 		font-size: 18px;
 	}
