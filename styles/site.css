@@ -113,6 +113,11 @@ footer {
 		margin-right: 10%;
 	}
 
+	#positions p {
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+
 	p {
 		margin-bottom: 30px;
 	}
